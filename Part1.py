@@ -10,9 +10,9 @@ sales_tax = round(food_charge * .07, 2)
 final_amount = food_charge + gratuity + sales_tax
 
 # Print the input and all calculated values
-print("The charge for all the food is: {}".format(food_charge))
-print("The gratuity for the food charge is: {}".format(gratuity))
-print("The sales tax on the food is: {}".format(sales_tax))
-print("The total amount you owe today is: {}".format(final_amount))
+print("The charge for all the food is: ${}".format(food_charge))
+print("The gratuity for the food charge is: ${}".format(gratuity))
+print("The sales tax on the food is: ${}".format(sales_tax))
+print("The total amount you owe today is: ${}".format(final_amount))
 
 
